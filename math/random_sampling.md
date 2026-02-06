@@ -21,17 +21,19 @@ Each draw is
 Binomial Distribution 
 Bin(n, p)
 
-\[
+$$
 X \sim \text{Binomial}(n, p)
-\]
+$$
 
-Normal Approximation 
-- **Mean**:
-  \[
-  \mu = np
-  \]
+## Normal Approximation (Large n)
 
-- **Standard deviation**:
-  \[
-  \sigma = \sqrt{npq}
-  \]
+### Mean
+$$
+\mu = np
+$$
+
+### Standard deviation
+$$
+\sigma = \sqrt{npq}
+$$
+
