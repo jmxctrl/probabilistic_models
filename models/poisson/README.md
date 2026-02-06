@@ -11,9 +11,15 @@ $$
 - **Mean:** \( \lambda \)
 - **Variance:** \( \lambda \)
 - **Additivity:**  
-  If \( X_1 \sim \text{Poisson}(\lambda_1) \) and  
-  \( X_2 \sim \text{Poisson}(\lambda_2) \) are independent, then  
-  \( X_1 + X_2 \sim \text{Poisson}(\lambda_1 + \lambda_2) \)
+$$
+X_1 \sim \text{Poisson}(\lambda_1), \quad
+X_2 \sim \text{Poisson}(\lambda_2)
+$$
+
+$$
+X_1 + X_2 \sim \text{Poisson}(\lambda_1 + \lambda_2)
+$$
+
 
 ### Interpretation
 Models the number of events occurring in a fixed interval of time or space,
