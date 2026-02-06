@@ -37,3 +37,22 @@ $$
 \sigma = \sqrt{npq}
 $$
 
+### Exactly \( k \) good results
+
+The probability of getting **exactly \( k \) good results** in \( n \) draws is:
+
+$$
+P(X = k) = \binom{n}{k} p^k q^{\,n-k}
+$$
+
+
+### Exactly \( k \) good and \( n-k \) bad results
+
+This is the same event, written explicitly:
+
+$$
+P(\text{exactly } k \text{ good and } n-k \text{ bad}) 
+= \binom{n}{k} \left(\frac{G}{N}\right)^k \left(\frac{B}{N}\right)^{n-k}
+$$
+
+
