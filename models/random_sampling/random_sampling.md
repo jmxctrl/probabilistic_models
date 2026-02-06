@@ -56,3 +56,37 @@ P(\text{exactly } k \text{ good and } n-k \text{ bad})
 $$
 
 
+## Random Sampling without Replacement
+
+### Setup
+- Population size: **N**
+- Good elements: **G**
+- Bad elements: **B**, where `G + B = N`
+- Sample size: **n**
+
+Each draw is  
+1. dependent  
+2. probabilities change  
+3. no replacement  
+
+---
+
+### Hypergeometric Distribution
+
+$$
+X \sim \text{Hypergeometric}(N, G, n)
+$$
+
+---
+
+### Exactly \( k \) good results
+
+The probability of getting **exactly \( k \) good results** in \( n \) draws is:
+
+$$
+P(X = k)
+= \frac{\binom{G}{k}\binom{B}{n-k}}{\binom{N}{n}}
+$$
+
+
+
