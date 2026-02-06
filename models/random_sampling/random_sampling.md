@@ -46,7 +46,7 @@ P(X = k) = \binom{n}{k} p^k q^{\,n-k}
 $$
 
 
-### Exactly \( k \) good and \( n-k \) bad results
+### Exactly \( k \) good and \( b \) bad results
 
 This is the same event, written explicitly:
 
