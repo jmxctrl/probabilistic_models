@@ -8,9 +8,9 @@ N balls. Some are good (G), some bad (B), and you put the ball back after every 
 - Bad elements: **B**, where `G + B = N`
 - Probability of drawing a good element on any draw:
 
-  \[
-  p = \frac{G}{N}, \quad q = 1 - p
-  \]
+$$
+p = \frac{G}{N}, \quad q = 1 - p
+$$
 
 
 Each draw is 
