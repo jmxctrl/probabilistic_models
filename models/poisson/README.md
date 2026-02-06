@@ -1,19 +1,24 @@
 ## Poisson Distribution
 
 ### Definition
-Let \( X \sim \text{Poisson}(\lambda) \) with pmf:
-\[
-P(X = k) = e^{-\lambda} \frac{\lambda^k}{k!}
-\]
+Let \( X \sim \text{Poisson}(\lambda) \) with probability mass function (pmf):
+
+$$
+P(X = k) = e^{-\lambda} \frac{\lambda^k}{k!}, \quad k = 0,1,2,\dots
+$$
 
 ### Properties
-- Mean: \( \lambda \)
-- Variance: \( \lambda \)
-- Additivity
+- **Mean:** \( \lambda \)
+- **Variance:** \( \lambda \)
+- **Additivity:**  
+  If \( X_1 \sim \text{Poisson}(\lambda_1) \) and  
+  \( X_2 \sim \text{Poisson}(\lambda_2) \) are independent, then  
+  \( X_1 + X_2 \sim \text{Poisson}(\lambda_1 + \lambda_2) \)
 
 ### Interpretation
-Counts events in a fixed interval under independence assumptions.
+Models the number of events occurring in a fixed interval of time or space,
+assuming events occur independently and at a constant average rate.
 
 ### Connections
-- Limit of Binomial
-- Poisson process increments
+- Limit of the Binomial distribution as \( n \to \infty \), \( p \to 0 \), with \( np = \lambda \)
+- Increments of a Poisson process
